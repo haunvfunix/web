@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<meta name="keywords" content="assignment 4, first website, funix"/>
+	<meta name="description" content="Bài Assignment số 4 của Hậu" />
+    <title>Assignment 4</title>
+		<style>
+			ul {
+				margin-left: 50px;
+				padding: 50px;
+				font-size: 27px;
+				list-style-type: none;
+			}
+			h2 {
+    font-style: italic;
+		</style>
+			<script src="jquery.js"></script>
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-85308739-1', 'auto');
+		  ga('send', 'pageview');
+
+		</script>
+	
+  </head>
+<body>
+  <ul>
+	<li>
+		<div class="help">
+			<h2 class="question">Chất lượng?</h2>
+			<p>Diện tích rộng rãi đồ dùng hoạt động tốt và an toàn sau,có đầy đủ về khu ăn uống, công viên, giải khát, internet, wifi...</p>
+		</div>
+	</li>
+	<li>
+		<div class="help">
+    <h2 class="question">Giá cả?</h2>
+    <p>Giá tùy thuộc mỗi khu vực sẽ cao thấp khác nhau.</p>
+		</div>
+	</li>
+  <li>
+		<div class="help">
+    <h2 class="question">Đi lại?</h2>
+    <p>Có các tuyến xe buýt bao quanh,hệ thống đi lại an toàn,đường xá lưu thông.</p>
+		</div>
+  </li>
+  <li>
+		<div class="class">
+    <h2 class="question">Vị trí và an ninh?</h2>
+    <p>cách trung tâm thành phố 100-300m,có bảo vệ của khu phố.</p>
+		</div>
+  </li>
+  <li>
+		<div class="class">
+    <h2 class="question">Hợp đồng</h2>
+    <p>Hợp đồng phụ thuộc vào hai bên giữa chủ nahf và người cho thuê</p>
+		</div>
+  </li>
+</ul>
+			<script>
+	$(".question").click(function(){
+    $(this).parent().find("p").toggle("slow");
+});
+      </script>
+</body>
+</html>
